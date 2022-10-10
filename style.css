@@ -1,14 +1,10 @@
-
-
-
 #form{
-    box-sizing: border-box;
     width: 400px;
     height: 20px;
     padding-bottom: 12px;
     margin: auto;
     margin-top: 60px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border: 1px grey;
     box-shadow: black;
 }
@@ -29,7 +25,7 @@ span{
     width: 43%;
     height: 180px;
     margin-top: 20px;
-    margin-left: 200px;
+    margin-left: 30px;
 
 }
 
@@ -82,3 +78,6 @@ img{
     }
     
 }
+
+
+
