@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ID Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div id="form">
+        <div id="conta">
+            <div id="image">
+                <img src="images/IMG-20220519-WA0002.jpg" alt="">
+            </div>
+            <div id="text">
+                <p><strong>Name:</strong> <span id="fullname"></span></p>
+                <p><strong>Email: </strong><span id="emails"></span></p>
+                <p><strong>Phone no.: </strong><span id="phoneno"></span></p>
+            </div>
+                
+        </div>
+        <input type="text" value="" id="name" oninput="names()" placeholder="Fullname">
+        <input type="email" value="" id="email" oninput="emails()" placeholder="email address">
+        <input type="number" value="" id="phone" oninput="phoneno()" placeholder="phone no.">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
